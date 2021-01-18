@@ -1,11 +1,12 @@
 package com.canking.paydemo;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.canking.minipay.Config;
 import com.canking.minipay.MiniPayUtils;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
