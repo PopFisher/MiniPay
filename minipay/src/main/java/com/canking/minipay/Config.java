@@ -1,8 +1,9 @@
 package com.canking.minipay;
 
-import android.support.annotation.DrawableRes;
 
 import java.io.Serializable;
+
+import androidx.annotation.DrawableRes;
 
 /**
  * Created by changxing on 2017/9/20.

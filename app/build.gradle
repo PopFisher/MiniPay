@@ -20,9 +20,9 @@ android {
 }
 
 dependencies {
-    //compile project(':minipay')
+    implementation project(':minipay')
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'com.canking.minipay:minipay:1.0.5'
+//    implementation 'com.canking.minipay:minipay:1.0.5'    // 在线仓库引入方式
 
     androidTestImplementation('androidx.test.espresso:espresso-core:3.1.0', {
         exclude group: 'com.android.support', module: 'support-annotations'
